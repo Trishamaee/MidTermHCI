@@ -1,0 +1,83 @@
+html, body{
+  margin: 0;
+}
+
+body{
+  background-image: url("BG.gif");  
+  background-repeat: no-repeat;
+  background-size: 1400px 700px;
+
+}
+.box-container{
+  position: relative;
+}
+.Sign{
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Times New Roman', italic;
+  color: white;
+
+}
+
+.box1{
+  position: relative;
+  left: 450px;
+  top: 50px;
+  height: 500px;
+  width: 500px;
+  background-color: #232366;
+  border: 5px solid #23232E;
+
+}
+
+.PhoneNumber{
+  position: relative;
+  left: 300px;
+  bottom: 77px;
+}
+
+.LastName{
+  position: relative;
+  left: 300px;
+  bottom: 77px;
+}
+
+.button{
+    background-color: #F3C9FF;
+    color:black;
+    border-radius: 15%;
+    height: 20px;
+    width: 80px; 
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-family: "Times New Roman";
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+  
+  }
+
+.button:hover{
+    background-color: black;
+    color: white;
+    /*-webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    animation: bounce .6s;*/
+}
+
+  /*@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }*/
+
